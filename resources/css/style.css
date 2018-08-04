@@ -1,0 +1,52 @@
+html{
+  font-size: 16px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 4rem;
+}
+#desktop{
+  display: none;
+}
+@media only screen and (min-width: 600px) {
+  #mobile{
+    display: none;
+  }
+  #desktop{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+.logo img{
+  height: 2rem;
+}
+#desktop ul{
+  display: block;
+  margin-right: 0.5rem;
+}
+#desktop li {
+  display: inline-block;
+  margin-right: 1rem;
+}
