@@ -148,6 +148,9 @@ main {
 .link {
   padding-bottom: 8rem;
 }
+#guest{
+  padding-bottom: 0;
+}
 .link h5, .link p {
   padding-left: 2rem;
   padding-top: 1rem;
@@ -209,4 +212,55 @@ main {
   #guest{
     background-color: LightGrey;
   }
+}
+
+
+
+.learning{
+  padding: 4rem 2rem;
+}
+.learning h3{
+  text-align: center;
+}
+.courses{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.course{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem 3rem 2rem;
+  margin-top: 1rem;
+  background-color: LightGrey;
+}
+/*below for desktop*/
+@media only screen and (min-width: 600px) {
+  .learning {
+    padding: 4rem 7rem;
+    background-color: LightGrey;
+  }
+  .first_row{
+    display: flex;
+    margin-top: 2rem;
+  }
+  .second_row{
+    display: flex;
+    margin-top:4rem;
+  }
+  .course{
+    padding: 0;
+    margin: 0 2rem;
+    background-color: white;
+  }
+  .course_text{
+    margin: 2rem 2rem 3rem 2rem;
+  }
+}
+.course img{
+  height: auto;
+  width: 100%;
+}
+.course_text p {
+  margin-top: 1rem;
 }
