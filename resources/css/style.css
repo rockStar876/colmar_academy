@@ -148,7 +148,7 @@ main {
 .link {
   padding-bottom: 8rem;
 }
-#guest{
+#highlight{
   padding-bottom: 0;
 }
 .link h5, .link p {
@@ -209,7 +209,7 @@ main {
   .link h5, .link p {
     padding-right: 2rem;
   }
-  #guest{
+  #highlight{
     background-color: LightGrey;
   }
 }
@@ -263,4 +263,38 @@ main {
 }
 .course_text p {
   margin-top: 1rem;
+}
+
+
+
+.thesis h3{
+  text-align: center;
+  margin-top: 4rem;
+}
+.exhibit{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+video{
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 600px) {
+  .exhibit{
+    display: flex;
+    margin: 4rem 1rem 4rem 3rem;
+  }
+  .video{
+    width: 60%;
+    margin-right: 3rem;
+  }
+  .video_text{
+    margin-top: 3rem;
+  }
+  .video_text p{
+    margin-top: 1rem;
+  }
+  .thesis .links{
+    margin: 0;
+  }
 }
